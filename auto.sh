@@ -2,7 +2,6 @@
 
 while true
 do
-  cd RDP || exit 1
   
   # Start rdp3.sh and capture PID
   sudo sh rdp3.sh <<EOF | tee rdp_log.txt &
